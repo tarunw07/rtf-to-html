@@ -39,7 +39,7 @@ function rtfToHTML (doc, options) {
     align: 'left',
     valign: 'normal',
 
-    paraBreaks: '\n\n',
+    paraBreaks: '',
     paraTag: 'p',
     template: outputTemplate
   }, options || {})
